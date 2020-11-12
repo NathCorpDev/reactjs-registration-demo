@@ -1,0 +1,24 @@
+.loginForm, .registerForm {
+  width: 550px;
+  margin: 100px auto;
+  background-color: #eeeeee;
+  padding: 25px 35px;
+}
+
+.loginForm button {
+  background: #ff0066;
+  color: #ffffff;
+  border: none;
+}
+
+@media only screen and (max-width:768px) {
+  .loginForm {
+    padding: 0;
+    background: transparent;
+    width: 100%;
+  }
+}
+
+ReactFC {
+  background: transparent !important;
+}
